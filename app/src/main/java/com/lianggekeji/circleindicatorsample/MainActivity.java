@@ -12,11 +12,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         final CircleIndicator indicator = (CircleIndicator) findViewById(R.id.indicator);
-        indicator.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                indicator.setCount(8);
-            }
-        },1000);
+        indicator.setCount(8);
     }
 }

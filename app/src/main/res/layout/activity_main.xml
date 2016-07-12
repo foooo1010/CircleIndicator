@@ -9,10 +9,14 @@
 
     <com.lianggekeji.circleindicator.CircleIndicator
         android:id="@+id/indicator"
+        android:background="@color/colorAccent"
         app:radius="10dp"
         app:space="10dp"
         app:selectedColor="#23d"
         app:unSelectedColor="#7d6"
+        app:gravity="right"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
 

@@ -1,22 +1,22 @@
 apply plugin: 'com.android.library'
 ext {
     bintrayRepo = 'maven'
-    bintrayName = 'flandre'
+    bintrayName = 'android'
 
-    publishedGroupId = 'com.liangekeji.yhj'
-    libraryName = 'CircleIndicator'
-    artifact = 'circle-indicator'
+    publishedGroupId = 'com.lianggekeji.yhj'
+    libraryName = 'circleindicator'
+    artifact = 'circleindicator'
 
-    libraryDescription = 'A circle indicator on Android'
+    libraryDescription = 'A indicator on Android'
 
-    siteUrl = 'https://github.com/yhj2009/BintrayDemo'
-    gitUrl = 'https://github.com/yhj2009/BintrayDemo.git'
+    siteUrl = 'https://github.com/yhj2009/CircleIndicator'
+    gitUrl = 'https://github.com/yhj2009/CircleIndicator.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'yhj'
     developerName = 'yhj'
-    developerEmail = '15757176642@163.com'
+    developerEmail = '1103472033@qq.com'
 
     licenseName = 'The Apache Software License, Version 2.0'
     licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'

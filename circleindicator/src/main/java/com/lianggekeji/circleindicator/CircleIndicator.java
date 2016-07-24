@@ -53,10 +53,11 @@ public class CircleIndicator extends View {
             return;
         }
         canvas.save();
-        int x = (getMeasuredWidth() - mBarWidth) / 2 * mGravity;
+        int x = (getMeasuredWidth() - mBarWidth) / 2 * mGravity;//设置位置偏移量
         canvas.translate(x,0);
+
         mPaint.setColor(mUnselectedColor);
-        for (int i = 0; i < mCount; i++)
+        for (int i = 0; i < mCount; i++)//绘制circle
             if (i != mIndex)
                 canvas.drawCircle(mMinPadding + mRadius + mRadius * i * 2 + mSpace * i+getPaddingLeft()-getPaddingRight(),
                         mMinPadding + mRadius+getPaddingTop(), mRadius, mPaint);
@@ -67,6 +68,7 @@ public class CircleIndicator extends View {
         canvas.restore();
     }
 
+    //装配viewpager
     public void setupViewPager(ViewPager viewPager) {
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
@@ -97,7 +99,6 @@ public class CircleIndicator extends View {
         this.mIndex = mIndex;
         postInvalidate();
     }
-
 
     private int dp2px(float value) {
         return (int) (getResources().getDisplayMetrics().density * value + 0.5);

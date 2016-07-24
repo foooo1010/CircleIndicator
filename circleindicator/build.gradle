@@ -12,7 +12,7 @@ ext {
     siteUrl = 'https://github.com/yhj2009/CircleIndicator'
     gitUrl = 'https://github.com/yhj2009/CircleIndicator.git'
 
-    libraryVersion = '1.0.1'
+    libraryVersion = '3.0.0'
 
     developerId = 'yhj'
     developerName = 'yhj'

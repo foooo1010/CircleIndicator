@@ -17,7 +17,7 @@
         app:gravity="right"
         android:paddingTop="5dp"
         android:paddingBottom="10dp"
-        android:layout_width="wrap_content"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"/>
 
 </LinearLayout>

@@ -12,13 +12,10 @@ compile 'com.lianggekeji.yhj:circleindicator:2.0.0'
 ```
 
 ##usage
-TextView subclass:
 
-![badge1](http://i1.piimg.com/4851/2aa21ebded460652.png) 
+![badge1](http://i1.piimg.com/4851/8090a936001fe287.png) 
 
-ImageView subclass:
 
-![badge2](http://i1.piimg.com/4851/a31ae36729d40a0e.png)
 
  in xml:
  
